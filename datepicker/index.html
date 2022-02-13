@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .hora-escolha {
+            height: auto;
+            width: 100px;
+            background-color: rgb(211, 211, 211);
+            color: #FFF;
+            position: absolute;
+            display: none;
+        }
+
+        button {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <label>Selecione uma hora 1:</label><br/>
+    <input type="text" name="hora1">
+
+    <br>
+    <br>
+
+    <label>Selecione uma hora 2:</label><br/>
+    <input type="text" name="hora2">
+
+    <div class="hora-escolha">
+        <button>10:00</button>
+        <button>12:00</button>
+        <button>13:00</button>
+        <button>14:00</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

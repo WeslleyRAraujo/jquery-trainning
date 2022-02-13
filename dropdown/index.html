@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .menu {
+            height: 40px;
+            background-color: black;
+            color: white;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li {
+            margin-left: 40px;
+            margin-right: 40px;
+            float: left;
+            padding: 0px 20px;
+            line-height: 40px;
+            cursor: pointer;
+        }
+
+        .menu1 {
+            height: 40px;
+            background-color: grey;
+        }
+
+        .menu2 {
+            position: absolute;
+            width: 150px;
+            height: 120px;
+            background-color: black;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <ul>
+            <li>
+                <div class="menu1">Home</div>
+                <div class="menu2">
+                    <a href="#">Link</a>
+                </div>
+            </li>
+            <li>
+                <div class="menu1">Menu 1</div>
+                <div class="menu2">
+                    <a href="#">Link</a>
+                </div>
+            </li>
+            <li>
+                <div class="menu1">Menu 2</div>
+                <div class="menu2">
+                    Opção 1 <br>
+                    Opção 2 <br>
+                    Opção 3
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

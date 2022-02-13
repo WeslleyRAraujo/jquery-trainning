@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .bgbox {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: none;
+        }
+
+        .imgbox {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            width: 500px;
+            height: 400px;
+            background-color: white;
+            margin-left: -290px;
+            margin-top: -240px;
+            padding: 40px;
+            display: none;
+        }
+
+        button {
+            border: 0;
+            background-color: pink;
+            color: black;
+            border-radius: 40px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="javascript:;" class="galery">
+        <img src="images/dilbert.jpg" border="0" width="150">
+    </a>
+
+    <a href="javascript:;" class="galery">
+        <img src="images/dilbert2.jpg" border="0" width="150">
+    </a>
+
+    <div class="bgbox"></div>
+    <div class="imgbox">
+        <img src="" border="0" width="100%" height="100%">
+        <br>
+        <button>X</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
